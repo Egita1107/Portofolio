@@ -1,0 +1,127 @@
+* {
+text-decoration: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* z-index: 99999; */
+}
+
+.navbar .logo {
+    font-size: 38px;
+    font-weight: bold;
+    padding: 0px 30px;
+    color: #66c98f;
+    font-style: italic;
+}
+
+.navbar .logo span {
+    color: #805d31;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color: #ffffff;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a:hover {
+    color: #66c98f;
+}
+
+.navbar .menu-navbar a::after {
+    content: '';
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid #66c98f;
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+
+.navbar .menu-navbar a:hover::after {
+    transform: scaleX(0.8);
+}
+
+nav ul li a, .menu{
+    display: inline-block;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px 22px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.dropdown:hover menu {
+    background-color: #ffffff;
+    transition: all 0.5s;
+}
+
+.text-center {
+    font-size: 18px;
+}
+
+.project {
+    padding: 20px 9% 50px 9%;
+    
+}
+
+.project h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: #4ba872;
+}
+
+.contact {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px 0 25px;
+    margin-top: -25px;
+}
+
+figure {
+    margin: 0 0 1rem; }
+
+.credit {
+    font-size: 20px;
+}
+
+.credit {
+    color: #68afdf;
+}
+
+.credit p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.credit span {
+    color: #805d31;
+    font-weight: 600;
+}
+
+.credit a {
+    color: #805d31;
+    font-weight: 600;
+}

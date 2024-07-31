@@ -1,0 +1,371 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio: Project</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/pdfobject"></script>
+    <style>
+      .pdfobject-container { height: 480px; border: 1px solid #ccc; }
+      </style>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <a class="logo">This<span> Portofolio</span></a>
+      <ul class="menu">
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="Project.html">Project</a></li>
+        <li><a href="Skill.html">Skill</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <hr class="border border-success border-2 opacity-50" />
+
+    <section class="project">
+      <div class="card border-0">
+
+        <div class="card-body mb-3">
+            <div class="row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">WebGIS Landprice</h5>
+                  <p class="card-text">Information services related to land value zones in Padang City are displayed in an interactive map visual. This information service will make it easier for users to obtain information about land prices. It also shows the distribution of market land prices obtained through a marketplace on a social media platform as a comparison with the land value zones.</p>                 
+                  <a class="btn btn-outline-secondary btn-sm" type="button" href="https://webgislandprice.000webhostapp.com/" target="_blank">View WebGIS</a>
+                  <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#eysa">EYSA 2024</button>
+                  <div class="modal fade" id="eysa" tabindex="-1" aria-labelledby="eysaLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="eysaLabel">Esri Young Scholars Award 2024</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <h6><b>Certificate</b></h6>
+                        <img src="Doc/Certificate Participant EYSA.pdf-5.jpg" class="img-fluid rounded-end" alt="...">
+                        <hr>
+                        <h6><b>Poster</b></h6>
+                        <img src="Doc/Poster (Egita Yaseen)_page-0001.jpg" class="img-fluid rounded-end" alt="...">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="Doc/webgis.png" class="img-fluid rounded-end" alt="...">
+              </div>
+            </div>
+        </div>
+
+        <div class="card-body mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="Doc/Peta Banjir.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Flood Hazard Assessment Map</h5>
+                <p class="card-text">Analysis Results: The flood hazard index in Riau Province is generally in the high zone, although there are some areas in the low zone. The method used is based on BNPB Regulation No. 2 of 2012 and other guidelines from national-level ministries/agencies. The map results show the distribution of points from patrols corresponding to the flood hazard categories in the raster data. This indicates the alignment of patrol results with field calculations using specific methods.</p>
+                <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#map">View Map</button>
+                <div class="modal fade" id="map" tabindex="-1" aria-labelledby="mapLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="mapLabel">Flood Hazard Assessment Map</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                      <img src="Doc/Peta Banjir.jpg" class="img-fluid rounded-end" alt="...">
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#report">Report</button>
+                <div class="modal fade" id="report" tabindex="-1" aria-labelledby="reportLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="reportLabel">Report</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div id="my-pdf">
+                            <embed src="Doc/Revisi 3 Laporan Magang Egita.pdf"/>
+                          </div>
+                          <script>PDFObject.embed("Doc/Revisi 3 Laporan Magang Egita.pdf", "#my-pdf");</script>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-body mb-3">
+          <div class="row g-0">
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">MOOC : Cartography</h5>
+                <p class="card-text">The training provided by ESRI offers guidance on how to present information on a map, so that the information can be understood spatially and simply.</p>
+                <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#certificate">View certificate</button>
+                <div class="modal fade" id="certificate" tabindex="-1" aria-labelledby="certificateLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="certificateLabel">Certificate</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                      <img src="Doc/Cartography._Certificate_05142024_page-0001.jpg" class="img-fluid rounded-end" alt="...">
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#week1">Week 1</button>
+                <div class="modal fade" id="week1" tabindex="-1" aria-labelledby="week1Label" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="week1Label">Creating a New Map Project</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                      <h6>In the first week of training, I was instructed to create a new map project in ArcGIS Pro 3.2 using the Massachusetts area. The map creation focused on displaying road and forest features, and representing the Boston area with a different symbol.</h6>
+                      <img src="Doc/MapOfMassachusettsBoston_Egita.jpg" class="img-fluid rounded-end" alt="...">
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#week2">Week 2</button>
+                <div class="modal fade" id="week2" tabindex="-1" aria-labelledby="week2Label" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="week2Label">Map Projection</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                          <div class="col">
+                            <div class="card h-100">
+                              <div class="card-body">
+                                <!-- <h5 class="card-title">Card title</h5> -->
+                                <p class="card-text">Plate Carree Projection</p>
+                              </div>
+                              <img src="Doc/Proyeksi Plate Carree.jpg" class="card-img-top" alt="...">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card h-100">
+                              <div class="card-body">
+                                <!-- <h5 class="card-title">Card title</h5> -->
+                                <p class="card-text">South Pole Stereographic Projection</p>
+                              </div>
+                              <img src="Doc/Proyeksi South Pole Stereographic.jpg" class="card-img-top" alt="...">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card h-100">
+                              <div class="card-body">
+                                <!-- <h5 class="card-title">Card title</h5> -->
+                                <p class="card-text">Spilhaus</p>
+                              </div>
+                              <img src="Doc/Spilhaus_Layout_Egita_Yaseen.jpg" class="card-img-top" alt="...">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#week3">Week 3</button>
+                <div class="modal fade" id="week3" tabindex="-1" aria-labelledby="week3Label" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="week3Label">Thematic Map</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                      <h6>In a thematic map, the transformation of data from table form to map form enhances spatial understanding.</h6>
+                      <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                          <div class="card">
+                            <img src="Doc/Layout.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <!-- <h5 class="card-title">Card title</h5> -->
+                              <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card">
+                            <img src="Doc/Choropleth - tantangan.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <!-- <h5 class="card-title">Card title</h5> -->
+                              <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#week4">Week 4</button>
+                <div class="modal fade" id="week4" tabindex="-1" aria-labelledby="week4Label" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="week4Label">Label as a Symbol</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                          <div class="col">
+                            <div class="card">
+                              <div class="card-body">
+                                <!-- <h5 class="card-title">Card title</h5> -->
+                                <p class="card-text">Symbols with street names and river names in New York City.</p>
+                              </div>
+                              <img src="Doc/Output1.jpg" class="card-img-top" alt="...">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card">
+                              <div class="card-body">
+                                <!-- <h5 class="card-title">Card title</h5> -->
+                                <p class="card-text">Symbols with numeric labels in America.</p>
+                              </div>
+                              <img src="Doc/Output2.jpg" class="card-img-top" alt="...">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#week5">Week 5</button>
+                <div class="modal fade" id="week5" tabindex="-1" aria-labelledby="week5Label" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="week5Label">3D Map</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                      <!-- <h6>Pada minggu pertama training, saya diarahkan untuk membuat sebuah proyek peta baru pada ArcGIS Pro 3.2 menggunakan wilayah Massachusetts. pembuatan peta di fokuskan untuk menampilkan fitur jalan, hutan, serta menjadikan wilayah Bostom dengan simbol yang berbeda.</h6> -->
+                      <img src="Doc/Peta 3D.jpg" class="img-fluid rounded-end" alt="...">
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#week6">Week 6</button>
+                <div class="modal fade" id="week6" tabindex="-1" aria-labelledby="week6Label" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="week6Label">Animation Stop-Motion</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                      <!-- <h6>Pada minggu pertama training, saya diarahkan untuk membuat sebuah proyek peta baru pada ArcGIS Pro 3.2 menggunakan wilayah Massachusetts. pembuatan peta di fokuskan untuk menampilkan fitur jalan, hutan, serta menjadikan wilayah Bostom dengan simbol yang berbeda.</h6> -->
+                      <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">3D animation before and after the landslide</h5>
+                              <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+                            </div>
+                            <img src="Doc/Oso Mudslide.gif" alt="this slowpoke moves"   alt="404 image"/>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">Ship's shipping route in 1770</h5>
+                              <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+                            </div>
+                            <video controls>
+                              <source src="Doc/ShippingIn17701.mp4" type="video/mp4">
+                            </video>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">The ship's voyage from Spain to Puerto Rico in 1770</h5>
+                              <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> -->
+                            </div>
+                            <video  controls>
+                              <source src="Doc/ShipRace.mp4" type="video/mp4">
+                            </video>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card">
+                            <!-- <div class="card-body">
+                              <h5 class="card-title">Stop-Motion 2D</h5>
+                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div> -->
+                            <img src="Doc/Small Multiple Layout.jpg" class="img-fluid rounded-end" alt="...">
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img src="Doc/Cartography._Certificate_05142024_page-0001.jpg" class="img-fluid rounded-end" alt="...">
+            </div>
+          </div>
+      </div>
+      </div>
+    </section>
+  </body>
+</html>
